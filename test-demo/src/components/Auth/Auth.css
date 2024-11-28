@@ -1,0 +1,65 @@
+.auth-container {
+    max-width: 650px; /* Wider form to reduce vertical height */
+    padding: 20px 20px; /* Reduced padding */
+    margin: 50px auto;
+    background: linear-gradient(135deg, #1c1f2b, #2a2f3a);
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    color: #e0e0e0;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .auth-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+  }
+  
+  .auth-container h5 {
+    margin-bottom: 15px;
+    color: #d1d1d1;
+    font-weight: 600;
+    font-size: 1.3rem;
+    letter-spacing: 0.3px;
+  }
+  
+  .auth-container .MuiTextField-root,
+  .auth-container .MuiOutlinedInput-root {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    border-radius: 6px;
+    margin-bottom: 10px; /* Reduced margin to save space */
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .auth-container .MuiTextField-root:hover .MuiOutlinedInput-root {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .sbtn{
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    color: white;
+    transition: background 0.3s ease;
+  }
+  
+  button.MuiButton-containedPrimary:hover {
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    transform: translateY(-2px);
+  }
+  
+  .auth-container .MuiTypography-body2 {
+    color: #a9a9a9;
+    font-size: 0.85rem;
+    margin-top: 10px;
+  }
+  
+  .auth-container .MuiButton-root {
+    text-transform: none;
+    letter-spacing: 0.4px;
+  }
+  
+  
